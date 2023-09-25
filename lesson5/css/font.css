@@ -1,0 +1,21 @@
+/*Подключение из Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Подключение с помощью плагина */
+/* @import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap"); */
+
+/* Подключение вручную */
+
+/* Подключение вручную */
+
+@font-face {
+    font-family: "minitaka";
+    src: url(../fonts/mintaka-font-1695558695-0/mintaka.woff2),
+    url(../fonts/mintaka-font-1695558695-0/mintaka.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
