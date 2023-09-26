@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+
+  @import url("reset.css");
+ol, ul  {
+  padding-left: 20px;
+}
+
+.pic {
+  width: 715.519px;
+height: 477.012px;
+margin: auto;
+}
+.tit {
+  display: block;
+  width: 692px;
+  height: 86px;
+  margin: 24px auto;
+}
+.title {
+  color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,2;
+}
+.text-one {
+  width: 692px;
+  height: 103px;
+  margin: 3px auto;
+  
+}
+.p-one {
+  color: #7D7D7D;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1,4;
+}
+.s-tit {
+  width: 692px;
+  height: 54px;
+  margin-top: 42px;
+  margin: 12px auto;
+}
+.sub-title {
+  color: #6B77E5;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,2;
+}
+.text-two {
+  width: 692px;
+  height: 54px; 
+  margin: 12px auto;
+}
+.p-two {
+  color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,4;
+}
+.colage {
+  width: 692px;
+  height: 530px;
+  margin: 40px auto;
+}
+.pic-two {
+  display: inline-block;
+  width: 300px;
+}
+.benefits {
+  display: inline-block;
+  width: 392px;
+}
+
+.title-list {
+  margin: auto;
+}
