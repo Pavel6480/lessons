@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+  @import url("reset.css");
+
+  .body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+  }
+  ol,ul {
+    padding-left: 30px;
+  }
+  .block-one {
+    max-width: 722px;
+    margin: 0 auto;
+    padding: 30px 15px;
+  }
+  .image {
+    margin-bottom: 37px;
+  }
+  .image image-benefits {
+    max-width: 100%;
+  }
+  .title {
+    color: #37393F;
+    font-family:"Poppins", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 12.5 px;
+  }
+  .text-one {
+    line-height: 1.46;
+    margin-bottom: 40px;
+  }
+  .subtitle-one {
+    color: #6B77E5;
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27; 
+    margin-bottom: 12px;
+  }
+  .benefits {
+    font-size: 0;
+    margin-bottom: 48px;
+  }
+  .image-benefits {
+    width: 331px;
+    margin-right: 29px;
+  }
+  .content-benefits {
+    display: inline-block;
+    width: 332px;
+    font-size: 18px;
+  }
+  .title-benefits {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 15px;
+  }
+  .sub-title-benefits {
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 23.5px;
+  }
+  .list-benefits li {
+margin-bottom: 35px;
+  }
+  .beauty-container {
+    max-width: 1169px;
+  
+    margin: 0 auto;
+    padding: 30px 15px;
+  }
+  .beauty {
+    width: 500px;
+    display: inline-block;
+    margin-left: 38px;
+
+  }
+  .beauty-preamble {
+    color: #D06B00;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .beauty-title {
+    color: #0E333D;
+    font-family: DM Serif Text;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+    margin-bottom: 25px;
+  }
+  .beauty-text {
+    color: #474747;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  .beauty-photo {
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+  .photo {
+    width: 270px;
+    height: 518px;  
+  }
