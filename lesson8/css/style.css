@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+  
+@import url("reset.css");
+
+  .body {
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+  }
+ 
+main {
+  padding: 30px;
+}
+.color {
+  width: 200px;
+  height: 100px;
+  background-color: blueviolet;
+}
+.pic {
+  background-image: url(../img/rr.jpg);
+}
+.gradient {
+  background: linear-gradient(90deg, red 0%, blueviolet 50%, rgb(243, 227, 5) 10%);
+}
+.repeat {
+  background-image: url(../img/rr.jpg);
+  background-repeat: repeat;
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+}
+.position {
+  background-image: url(../img/rr.jpg);
+  /* background-repeat: no-repeat;  */
+  /* background-position: top; */
+  /* background-position: center; */
+  /* background-position: bottom; */
+}
+.fix {
+  background-image: url(../img/rr.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.size {
+  background-image: url(../img/rr.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  /* background-size: auto 200px; */
+  /* background-size: 50%; */
+  /* background-size: contain; */
+  /* background-size: cover; */
+}
+.center {
+  background-image: url(../img/rr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+.multy {
+  margin-bottom: 30px;
+  /* background: green url("../img/rr.jpg") 0 0 / auto no-repeat scroll; */
+  /* background: green url("../img/rr.jpg") center no-repeat; */
+  /* background: green linear-gradient(90deg, red 0%, blueviolet 50%, rgb(243, 227, 5) 10%) 50px 50px / 200px; */
+  background: url(../img/rr.jpg) 0 0 / 200px no-repeat,
+              url(../img/fing.jpg) 50% / 500px no-repeat,
+              linear-gradient(90deg, red 0%, blueviolet 50%, rgb(243, 227, 5) 10%)
+            }
+
+/* ПРАКТИКА (02*05)*/
+.list {
+
+}
+.list__item {
+  font-family: "Poppins", sans-serif;
+  color: #373737;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 23px;
+  padding-left: 35px;
+  background: url(../img/vector1.jpg) 0 3px no-repeat;
+  min-height: 30px;
+}
+
+/* МАКЕТ_№1 */
+
+
+.hero-title,
+.title-footer {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projects,
+.busines-plan {
+  color: #7D7D7D;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+}
+
+.title-small,
+.sub-title,
+.title {
+  color: #37393F;
+}
+
+.sub-title {
+  padding-left: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  min-height: 22px;
+  background: url(../img/box.jpg) 0 5px / 12px 12px no-repeat;
+  display: inline-block;
+}
+
+.title-small {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.46;
+}
+
+.busines-plan-container {
+  max-width: 703px;
+  padding-top: 150px;
+  padding-right: 15px;
+  padding-bottom: 145px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.busines-plan-sub-title {
+  margin-bottom: 16px;
+}
+
+.busines-plan-title {
+  margin-bottom: 20px;
+}
+
+.busines-plan-text {
+  margin-bottom: 20px;
+}
+
+
+.busines-plan-text p~p {
+  margin-top: 15px;
+}
+
+.busines-plan-list {
+  color: #37393F;
+  margin-bottom: 43px;
+}
+
+.busines-plan-list li~li {
+  margin-top: 23px;
+}
+
+.busines-plan-list-item {
+  padding-left: 35px;
+  line-height: 1.5;
+  min-height: 33px;
+  background: url(../img/vector1.jpg) 0 0 / 27px 27px no-repeat;
+}
+
+
+.busines-plan-advantages {
+  margin-bottom: 37px;
+}
+
+.busines-plan-advantages li~li {
+  margin-left: 21px;
+}
+
+.busines-plan-advantages-item {
+  border: 1px solid #E3E3E3;
+  padding: 31px 32px 32px 32px;
+  display: inline-block;
+  width: 295px;
+}
+
+
+.busines-plan-advantages-content {
+  min-height: 40px;
+  padding-left: 58.5px;
+
+}
+
+.advantages-left {
+  background: url(../img/icon1.jpg) 0 0 / 40px 40px no-repeat;
+}
+
+.advantages-right {
+  background: url(../img/icon2.jpg) 0 0 / 40px 40px no-repeat;
+}
+
+.busines-plan-advantages-title {
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.busines-plan-advantages-text {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.busines-plan-button {
+  padding: 22px 35px;
+  background: #6B77E5;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+}
+
+
+/* МАКЕТ_№2 */
+
+.proj {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.proj-container {
+  max-width: 1250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.proj-header {
+  text-align: center;
+  max-width: 852px;
+  margin: 0 auto;
+  margin-bottom: 47px;
+}
+
+.proj-sub-title,
+.projects-title {
+  margin-bottom: 14px;
+}
+
+.row-first {
+  margin-bottom: 58px;
+}
+
+.proj-item {
+  display: inline-block;
+  width: 100%;
+  max-width: 384px;
+}
+
+.proj-img {
+  min-height: 501px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.proj-title {
+  line-height: 1.27;
+  margin-bottom: 10px;
+}
+
+.proj-date {
+  padding-left: 25px;
+  background: url(../img/Group22.jpg) no-repeat;
+  min-height: 22px;
+  font-size: 14px;
+  line-height: 1.46;
+}
+
+.item-first {
+  margin-right: 34px;
+}
+
+.item-first .proj-img {
+  background: url(../img/projects_img1.jpg) center/ cover no-repeat;
+}
+
+.item-second {
+  margin-right: 34px;
+}
+
+.item-second .proj-img {
+  background: url(../img/projects_img2.jpg) center/ cover no-repeat;
+}
+
+.item-third .proj-img {
+  background: url(../img/projects_img3.jpg) center/ cover no-repeat;
+}
+
+.item-four {
+  margin-right: 34px;
+}
+
+.item-four .proj-img {
+  background: url(../img/projects_img4.jpg) center/ cover no-repeat;
+}
+
+.item-five {
+  margin-right: 34px;
+}
+
+.item-five .proj-img {
+  background: url(../img/projects_img5.jpg) center/ cover no-repeat;
+}
+
+.item-six .proj-img {
+  background: url(../img/projects_img6.jpg) center/ cover no-repeat;
+}
+
+.proj-item {
+  display: inline-block;
+  width: 100%;
+  max-width: 384px;
+}
+
+.proj-img {
+  min-height: 501px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.proj-title {
+  line-height: 1.27;
+  margin-bottom: 10px;
+}
+
+.proj-date {
+  padding-left: 25px;
+  background: url(../img/icon3.jpg) no-repeat;
+  min-height: 22px;
+  font-size: 14px;
+  line-height: 1.46;
+}
+
+.item-first,
+.item-second,
+.item-four,
+.item-five {
+  margin-right: 34px;
+}
+
+.item-first .proj-img {
+  background: url(../img/projects_img1.jpg) center/ cover no-repeat;
+}
+
+.item-second .proj-img {
+  background: url(../img/projects_img2.jpg) center/ cover no-repeat;
+}
+
+.item-third .proj-img {
+  background: url(../img/projects_img3.jpg) center/ cover no-repeat;
+}
+
+.item-four .proj-img {
+  background: url(../img/projects_img4.jpg) center/ cover no-repeat;
+}
+
+.item-five .proj-img {
+  background: url(../img/projects_img5.jpg) center/ cover no-repeat;
+}
+
+.item-six .proj-img {
+  background: url(../img/projects_img6.jpg) center/ cover no-repeat;
+}
+
+
+/* МАКЕТ_№3 */
+
+
+.fashion,
+.clothing {
+  font-family: 'Causten', sans-serif;
+}
+
+.clothing-container,
+.fashion-container {
+  max-width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.clothing {
+  padding-top: 53px;
+  padding-bottom: 43px;
+}
+
+.clothing-container>* {
+  padding-left: 21px;
+}
+
+.clothing-title {
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #3C4242;
+  margin-bottom: 30px;
+  min-height: 31px;
+  background: url(../img/icon4.jpg) no-repeat;
+}
+
+.clothing-title,
+.clothing-button,
+.clothing-sub-title {
+  font-family: 'Core Sans C';
+  font-weight: 700;
+}
+
+.clothing-button,
+.clothing-sub-title,
+.clothing-text {
+  color: #807D7E;
+  font-size: 20px;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+}
+
+.clothing-sub-title {
+  margin-bottom: 25px;
+}
+
+.clothing-text {
+  margin-bottom: 25px;
+}
+
+
+/* .clothing-text p{
+  margin-bottom: 20px;
+} */
+
+.clothing-text p~p {
+  margin-top: 20px;
+}
+
+.clothing-text span {
+  font-weight: 700;
+}
+
+.clothing-button {
+  display: inline-block;
+}
+
+/* МАКЕТ_№4 */
+
+.fashion {
+  padding: 100px 0;
+  color: #fff;
+}
+
+/* .fashion-container {} */
+
+.fashion-body {
+  overflow: hidden;
+  font-size: 0;
+  border-radius: 10px;
+}
+
+.fashion-left,
+.fashion-right {
+  display: inline-block;
+  min-height: 640px;
+}
+
+.fashion-left {
+  max-width: 614px;
+  padding: 183px 74px 175px;
+  background: url(../img/fashion_img1.jpg) center/ cover no-repeat;
+}
+
+.fashion-right {
+  vertical-align: top;
+  max-width: 626px;
+  width: 100%;
+  height: 640px;
+  background: url(../img/fashion_img2.jpg) center/ cover no-repeat;
+}
+
+.fashion-title {
+  font-family: 'Core Sans C', sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  letter-spacing: 0.2px;
+  line-height: 1.47;
+  margin-bottom: 18px;
+}
+
+.fashion-text {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 1.2;
+
+}
+
+.fashion-button {
+  border-radius: 8px;
+  padding: 12px 44px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3C4242;
+  display: inline-block;
+}
