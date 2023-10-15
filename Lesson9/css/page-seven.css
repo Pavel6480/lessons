@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+main {
+padding: 50px;
+}
+h1 { 
+    margin-bottom: 30px;
+}
+
+li {
+margin-bottom: 10px;
+}
+.title {
+    margin-bottom: 25px;
+}
+.title-one:hover {
+color: blue;
+text-decoration: underline
+}
+.subject {
+    color: red;
+}
+.example {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+.blok {
+    background-color: blueviolet;
+    padding: 10px;
+    }
+.blok >*:last-child {
+    margin-bottom: 0;
+}
+.blok-title {
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+.blok-text {
+    line-height: 140%;
+    font-size: 18px;
+    margin-bottom: 30px;
+    }
+.blok-link {
+    font-size: 40px;
+    color: rgb(249, 228, 6);
+    text-decoration: underline;
+    }  
+.blok-link:hover {
+    color: rgb(227, 8, 173);
+}      
