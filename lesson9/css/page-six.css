@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+main {
+padding: 50px;
+}
+h1 { 
+    margin-bottom: 30px;
+}
+
+li {
+margin-bottom: 10px;
+}
+.title {
+    margin-bottom: 25px;
+}
+.title-one:hover {
+color: blue;
+text-decoration: underline
+}
+.subject {
+    color: red;
+}
+.example {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+/* =============ПРАКТИКА================ */
+p {
+    margin-bottom: 10px;
+}
+.text p:nth-child(3n+1) {
+    background-color: aqua;
+}
+.text p:nth-child(3n+2) {
+    background-color: rgb(81, 255, 0);
+}
+/* :not поигрался, но решил не включать */
