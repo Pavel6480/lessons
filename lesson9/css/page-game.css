@@ -1,0 +1,92 @@
+.game {
+	min-height: 2000px;
+	text-align: initial;
+	margin-top: 30px;
+	font-size: 0;
+}
+.line1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px; 
+    background-color: blueviolet;
+    }
+.line2 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(183, 235, 11);
+    }
+.line3 {
+    display: inline-block;
+    width: 50px;
+    height: 350px;
+    margin-left: 250px;
+    background-color: rgb(217, 14, 102);
+    }
+.line4 {
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin-left: 250px;
+    background-color: orangered;
+}
+.line5 {
+    display: inline-block;
+    width: 50px;
+    height: 250px;
+    margin-left: 700px;
+    background-color: gray;
+}
+.line6 {
+    display: block;
+    width: 800px;
+    height: 50px;
+    margin-left: 700px;
+    background-color: aqua;
+}
+.line7 {
+    display: inline-block;
+    width: 50px;
+    height: 600px;
+    margin-left: 1500px;
+    margin-top: -600px;
+    background-color: gray;
+}
+.line8 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 1550px;
+    margin-top: 0px;
+    background-color: rgb(245, 8, 8); 
+}
+/* .line2,.line3,.line4,.line5,.line6,.line7, .line8 {
+    visibility: hidden;
+} */
+.line:hover ~ .line1,
+.line1:hover {
+    visibility: visible;
+}
+.line1:hover ~ .line2,
+.line2:hover {
+    visibility: visible;
+}
+.line2:hover ~ .line3,
+.line3:hover {
+    visibility: visible;
+}
+.line3:hover ~ .line4,
+.line4:hover {
+    visibility: visible;
+}
+.line4:hover ~ .line5,
+.line5:hover {
+    visibility: visible;
+}
+.line5:hover ~ .line6,
+.line6:hover {
+    visibility: visible;
+}
+.line6:hover ~ .line7,
+.line7:hover {
+    visibility: visible;
+}
