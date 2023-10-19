@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.page {
+    margin-bottom: 15px;
+}
+.title {
+    margin-bottom: 25px;
+}
+.title-one:hover {
+color: blue;
+text-decoration: underline;
+}
+.subject {
+    color: red;
+    margin-bottom: 20px;
+}
+.example {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+.container {
+    width: 1220px;
+    height: 464px;
+}
+.preamble {
+    text-align: center;
+}
+.preamble-text {
+    color: #37393F;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.preamble-text::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color:#40DDB6;
+    vertical-align: 2px;
+    margin-right: 6px;
+}
+.title {
+color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 77px;
+}
+.november {
+    width: 1220px;
+    height: 337px;
+}
+.rectangle1 {
+    width: 386px;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 25px;
+}
+.rectangle2 {
+    width: 386px;
+    height: auto; 
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+}
+.rectangle3 {
+    width: 386px;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+.content {
+    padding: 58px 43px 58px 43px;
+    background-color: #F4F4F4;
+}
+.icon {
+    width: 72px;
+    height: 72px;
+    margin: -94px auto 32px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rectangel-title {
+    color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+margin-bottom: 16px;
+}
+
+.rectangel-text {
+color: #7D7D7D;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4;
+margin-bottom: 37px;
+}
+.rectangel-link {
+color: #6B77E5;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.rectangle3 {
+    margin-bottom: 50px;
+}
+/* =============Макет_№4=============== */
+
+.conteiner2 {
+    max-width: 1220px;
+}
+.left {
+    display: inline-block;
+ }
+.center {
+    display: inline-block;
+}
+.right {
+    display: inline-block;
+}
+.left {
+    max-width: 488px;
+    vertical-align: top;
+    padding-top: 109px;
+    padding-right: 3px;
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.left1 {
+    display: inline-block;
+}
+.left1::after {
+    content: "";
+    display: block;
+    width: 304px;
+    height: 3px;
+    background-color:#78473B ;
+}
+.center {
+vertical-align: top;
+}
+.photo1 {
+    font-size: 0;
+    width: 334px;
+    height: 381px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border: 3px solid black;
+}
+.col1 {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.col2 {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+h3 {
+    width: 339px;
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 31px;
+}
+.photo2 {
+    font-size: 0;
+    width: 334px;
+    height: 381px;
+    margin-bottom: 25px;
+    border: 3px solid black;
+}
+.col11 {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.col12 {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.photo img {
+    padding-left: 10px;
+    padding-top: 10px;
+/*  vertical-align: top; є в обнулені, його писати для картинок не треба  */
+    vertical-align: top;
+}
+
