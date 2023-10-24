@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+  
+@import url("reset.css");
+
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+
+main {
+  padding: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.start {
+  text-align: center;
+  color: red;
+  background-color: green;
+  border: 5px double blue;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.preamble {
+  background-color: aqua;
+  border: 5px solid orangered;
+  padding: 10px;
+}
+.catalog {
+  color: black;
+}
+.catalog:visited {
+  color: aqua;
+}
+.center {
+  max-width: 1800px;
+  margin-left: auto;
+}
+
