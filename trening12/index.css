@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+}
+[class*="__conteiner"] {
+    max-width: 930px;
+    /* margin: 0 auto; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.menu-header {
+    /* ====ul родительский======== */
+    display: inline-block;
+}
+.menu__item {
+    /* ======Li родительский======= */
+    display: inline-block;
+    
+}
+.menu__link {
+    /* ========а родительский======= */
+    display: inline-block;
+    padding: 10px;
+    background-color: brown;
+    
+}
+.menu__link:hover {
+    background-color: goldenrod;
+}
+/* ==========2й уровень============ */
+.sub-menu-header {
+    /* ===UL 2 уровень */
+}
+.sub-menu__item {
+    /* ====Li 2 уровень=== */
+}
+.sub-menu__link {
+    /* =====а 2 уровень====== */
+}
