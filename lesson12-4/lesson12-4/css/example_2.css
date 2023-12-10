@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter&display=swap');
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-left: 30px; 
+    /*не понятный отступ только с одного края, лучше так:*/padding: 30px; 
+    /*+*/ box-sizing: border-box;
+}
+main {
+    padding: 30px;
+}
+li {
+    margin-bottom: 10px;
+}
+.wrapprer {
+width: 100%;
+}
+.home-header {
+    max-width: 2950px;
+    /*  можно заменить на:*/ width: 100%;
+    border: 5px solid blue;
+    margin-bottom: 30px;
+    /* padding: 30px; */
+}
+.wrapp-title {
+    display: inline-block;
+    width: 49.5%;
+
+}
+.wrapp-link {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.wrapp-title__title {
+    display: inline-block;
+    font-family: "Cormorant"; 
+
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.wrapp-link__link {
+    display: inline-block;
+    font-weight: 600;
+    width: 300px;
+    height: 100px;
+    border: 5px solid red;
+    background-color: yellow;
+    text-align: center;
+    padding: 35px;
+} 
+.wrapp-link__link:hover {
+    background-color: green;
+}
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    padding: 16px 0;
+}
+/* ===========Lesson12=========== */
+
+[class*="__container"] {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-container {
+    position: relative;
+    z-index: 2;
+}
+.work-header {
+    margin: auto; 
+    height: 65px;
+    width: 1200px;
+}
+.logo {
+    display: inline-block;
+}
+.brend {
+    display: inline-block;
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo-span {
+    color: #6B77E5;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menu-header {
+    display: inline-block;
+    padding-left: 185px;
+}
+.menu-title {
+    display: inline-block;
+    /* ---UL родит---- */
+}
+.menu-title__item {
+    /* ----LI родит----- */
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+}
+.active {
+    color: #FFF;
+
+text-align: center;
+font-family: Cabin;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.menu-title__item:hover .menu__link {
+    background-color: goldenrod;
+}
+.menu-title__item:hover .sub-menu-title {
+    visibility: visible;
+}
+.menu-title__link {
+    /* -----a родит------ */
+    display: inline-block;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sub-menu-title {
+ /* ---UL 2---- */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: 10px;
+    visibility: hidden;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sub-menu-title__item {
+ /* ----LI 2----- */
+    position: relative;
+}
+.sub-menu-title__item:hover .sub-menu-title__link {
+    color: beige;
+}
+.sub-menu-title__item:hover .sub-sub-menu-title {
+    visibility: visible;
+}
+.sub-menu-title__link {
+    /* -----a 2------ */
+    padding: 20px;
+    width: 30px;
+}
+.sub-menu-title__link:hover {
+    text-decoration: underline;
+}
+.sub-sub-menu-title {
+    /* =====UL 3====== */
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding-left: 10px;
+    visibility: hidden;
+    background-color: rgb(255, 0, 174);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sub-sub-menu__item {
+    /* ======LI 3====== */
+}
+.sub-sub-menu__link {
+    /* ======a 3======= */
+    width: 30px;
+}
+.sub-sub-menu__link:hover {
+    text-decoration: underline;
+} 
+.active {
+    display: inline-block;
+    width: 194px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: #FFF;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 21px 35px;
+}
+/* =========================main=============================== */
+.main-container {
+}
+.work-main {
+    width: 1200px;
+    margin: auto;
+}
+/* ============соц сети========== */
+.hero-item {
+    position: absolute;
+    width: 100%;
+    max-height: 114px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FFF;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: -115px;
+    z-index: 1;
+}
+.text-title {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-item {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.photo-hero{
+    width: 100%;
+    height: 100%;
+}
+.card-people {  
+    position: relative;
+    display: inline-block;
+    position: relative;
+    width: 386px;
+    height: 582px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-two, .card-five {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-people::before {
+    visibility: visible;
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    opacity: 0;
+}
+.card-people:hover::before {
+    background-color: #6B77E5;
+    opacity: 0.8;
+}
+.social-item{
+    opacity: 0;
+    position: absolute;
+    top: 295px;
+    left: 105px;
+    transition: all 1s;
+}
+
+.social-item a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: auto; 
+    background-color: aqua;
+    margin: 0 5px 0 5px; 
+}
+
+.card-people:hover .social-item {
+    opacity: 0.8;
+}
+
+
