@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+  
+@import url("reset.css");
+
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+.wrapper {
+  max-width: 100%;
+  padding: 50px;
+}
+.container_header {
+  padding: 300px;
+  margin-left: 50px;
+}
+.stop-signal {
+  width: 25px;
+  height: 55px;
+  background-color: red;
+  transform: translate(0, 500px);
+}
+.vun {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  background-color: brown;
+}
+.ads {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  background-color: rgb(42, 163, 165);
+  padding-top: 200px;
+  padding-left: 140px;
+  transform: scale(0.5);
+  font-size: 90px;
+  transition-duration: 1s, 1s, 1s;
+  transition-property: widht, height, background-color;
+}
+.ads:hover {
+  width: 800px;
+  height: 800px;
+  border: 5px solid black;
+  background-color: rgb(219, 26, 97);
+  transform: scale(0.6, 0.6);
+}
+  
+.cabin {
+  width: 300px;
+  height: 200px;
+  background-color: brown;
+  transform: translate(500px, -400px);
+  border-radius: 0 30px 0 0 ;
+}
+.window {
+  width: 300px;
+  height: 200px;
+  border-radius: 0 30px 0 0 ;
+  background-color: rgb(13, 167, 64);
+  transform: scale(0.8);
+  transition-duration: 1s, 1s, 1s;
+  transition-property: width, height, background-color;
+}
+.window:hover {
+  width: 300px;
+  height: 10px;
+  background-color: white;
+}
+
+.engine {
+  width: 600px;
+  height: 200px;
+  background-color: brown;
+  transform: translate(500px, -400px);
+  border-radius: 0 30px 0 0 ;
+}
+.radiator {
+  width: 300px;
+  height: 100px;
+  background-color: blueviolet;
+  transform: translate(750px, -560px) skew(-20deg, 0 );
+}
+.light {
+  width: 25px; 
+  height: 80px; 
+  background-color: yellow;
+  border-radius: 0 50% 50% 0; 
+  transform: translate(1100px, -670px); 
+}
+.turn__signal {
+  width: 25px; 
+  height: 50px; 
+  background-color: orangered;
+  border-radius: 0 50% 50% 0; 
+  transform: translate(1100px, -650px);
+}
+.wheel-behind {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: black;
+  transform: translate(150px, -630px);
+}
+.disc-behind {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: silver;
+  transform: translate(150px, -810px) scale(0.8)  
+}
+.wheel {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(850px, -990px);
+}
+.disc {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: silver;
+  transform: translate(850px, -1170px) scale(0.8)  
+}
